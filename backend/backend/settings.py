@@ -1,5 +1,5 @@
-from pathlib import Path
 import os
+from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -10,10 +10,6 @@ DEBUG = True
 
 
 ALLOWED_HOSTS = ['130.193.41.47', '127.0.0.1', 'localhost', 'mydnsstudy.zapto.org']
-
-
-
-# Application definition
 
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
